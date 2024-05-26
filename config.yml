@@ -1,0 +1,24 @@
+Data:
+  Path: "data.csv"
+  Separator: ","
+  Encoding: "utf-8"
+  Header: True
+  Text Column: "label"
+  Label Columns:
+    - "red"
+    - "green"
+  Multi Label: False
+  Require Confirmation: False
+
+
+Output: 
+  Path: "output.csv"
+  Separator: ","
+  Encoding: "utf-8"
+  Header: True
+  
+
+Top Bar:
+  Title: "EasyLabel"
+  Framed: False
+  Location: "top"

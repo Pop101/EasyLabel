@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "easylabel"
+version = "0.1.0"
+description = ""
+authors = ["Pop101 <contact@leibmann.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+PyTermTk = "^0.39.0a117"
+pandas = "^2.2.2"
+anyascii = "^0.3.2"
+pyyaml = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
