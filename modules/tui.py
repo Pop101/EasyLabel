@@ -86,9 +86,13 @@ def labelling_layout(text, buttons:list[str], allow_multiselect=False, button_ca
     # Define the button callback
     def internal_button_callback(btn):
         button_callback(btn)
-        btn.setChecked(True)
-        if btn not in clicked_buttons: clicked_buttons.append(btn)
-        elif btn in clicked_buttons:   clicked_buttons.remove(btn)
+        if btn not in clicked_buttons:
+            btn.setChecked(True)
+            clicked_buttons.append(btn)
+            
+        elif btn in clicked_buttons:   
+            clicked_buttons.remove(btn)
+            btn.setChecked(False)
         
         if not allow_multiselect and btn.isChecked():
             for other_btn in clicked_buttons:
