@@ -1,3 +1,11 @@
-label,red,green
-Grass,,
-Rose,,
+Customer Feedback,Delivery Issue,Product Quality,Customer Service,Pricing
+"The package arrived late, and the box was damaged.",True,True,False,False
+"I love the quality of the shoes, but they are a bit pricey.",False,True,False,True
+"Customer support was very helpful in resolving my issue quickly.",False,False,True,False
+"The item was not as described and arrived in poor condition.",False,True,False,False
+"The delivery was prompt, and the product is excellent.",False,True,False,False
+"Prices are too high compared to other stores, but the service is good.",False,False,True,True
+"My order was delayed, and the support team did not respond timely.",True,False,True,False
+"The quality is good, but the delivery took longer than expected.",True,True,False,False
+"Found better prices elsewhere, will not shop here again.",False,False,False,True
+"Excellent customer service, but the product did not meet my expectations.",False,True,True,False

@@ -3,20 +3,20 @@ Data:
   Separator: ","
   Encoding: "utf-8"
   Header: True
-  Text Column: "label"
+  Text Column: "Customer Feedback"
   Label Columns:
-    - "red"
-    - "green"
-  Multi Label: False
+    - "Delivery Issue"
+    - "Product Quality"
+    - "Customer Service"
+    - "Pricing"
+  Multi Label: True
   Require Confirmation: False
 
-
-Output: 
+Output:
   Path: "output.csv"
   Separator: ","
   Encoding: "utf-8"
   Header: True
-  
 
 Top Bar:
   Title: "EasyLabel"
