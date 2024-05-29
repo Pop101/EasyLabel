@@ -14,6 +14,8 @@ Easy-to-use data labelling tool for machine learning models.
 
 Often times, we need to label data for machine learning models. This repo takes inspiration from my job as a cashier, where the buttons on the register are color-coded and in the same position. Mirroring this, we create an enviornment where labelling data is as easy as pressing a button.
 
+![](.github/workflow.png)
+
 # Technologies
 
 This project is created with:
