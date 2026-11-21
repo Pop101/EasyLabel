@@ -16,9 +16,9 @@ Label text in a CSV without leaving your terminal. EasyLabel shows one row at a 
 
 ## Technologies
 
-- **Python** runs the labeler.
-- **PyTermTk** provides the terminal interface.
-- **pandas** reads and writes CSV rows; **PyYAML** reads the configuration.
+- [**Python**](https://www.python.org/) runs the labeler.
+- [**PyTermTk**](https://github.com/ceccopierangiolieugenio/pyTermTk) provides the terminal interface.
+- [**pandas**](https://pandas.pydata.org/) reads and writes CSV rows; [**PyYAML**](https://pyyaml.org/) reads the configuration.
 
 ## Try the sample
 
