@@ -8,6 +8,18 @@ Label text in a CSV without leaving your terminal. EasyLabel shows one row at a 
 
 ![EasyLabel poster: a CSV row goes into a colorful cash register and comes out as a labeled receipt](.github/images/readme-hero.svg)
 
+## Table of Contents
+
+- [Technologies](#technologies)
+- [Try the sample](#try-the-sample)
+- [Use your own CSV](#use-your-own-csv)
+
+## Technologies
+
+- **Python** runs the labeler.
+- **PyTermTk** provides the terminal interface.
+- **pandas** reads and writes CSV rows; **PyYAML** reads the configuration.
+
 ## Try the sample
 
 Use Python 3.12 or later, [Poetry](https://python-poetry.org/), and an interactive terminal.
