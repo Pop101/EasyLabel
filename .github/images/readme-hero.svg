@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+<title id="title">EasyLabel</title><desc id="desc">Poster art for a terminal labeler inspired by a cash register: a CSV row, a set of colorful keys, and a receipt with labels.</desc>
+<rect width="1200" height="480" rx="24" fill="#181c26"/>
+<path d="M0 402H1200" stroke="#373e4f"/><path d="M0 22H1200" stroke="#5cd6ad" stroke-width="4"/>
+<circle cx="606" cy="166" r="112" fill="#222936"/><circle cx="606" cy="166" r="85" fill="none" stroke="#3b4759" stroke-dasharray="3 8"/>
+<g font-family="ui-monospace, monospace">
+<text x="66" y="91" font-size="17" letter-spacing="5" fill="#66dfb4">THE TERMINAL LABELER</text>
+<text x="61" y="204" font-size="76" font-weight="700" fill="#f5f0dc">EasyLabel</text>
+<text x="67" y="255" font-size="22" fill="#b3bfce">One row. A few keys.</text>
+<text x="67" y="290" font-size="22" fill="#b3bfce">A labeled CSV.</text>
+<text x="67" y="442" font-size="15" letter-spacing="3" fill="#8395a9">INPUT / SELECT / CONFIRM</text>
+</g>
+<path d="M602 323l52-186h430l51 186z" fill="#0c1018" transform="translate(0 13)"/>
+<path d="M602 323l52-186h430l51 186z" fill="#333b4b" stroke="#606e82" stroke-width="2"/>
+<rect x="697" y="165" width="347" height="39" rx="6" fill="#111820"/>
+<text x="719" y="191" font-family="ui-monospace, monospace" font-size="16" fill="#8be7c7">row 01  &gt;  customer feedback</text>
+<g stroke="#111820" stroke-width="3">
+<rect x="658" y="232" width="94" height="57" rx="8" fill="#8be7c7"/><rect x="766" y="232" width="94" height="57" rx="8" fill="#f2cf7b"/>
+<rect x="874" y="232" width="94" height="57" rx="8" fill="#b9a8fa"/><rect x="982" y="232" width="94" height="57" rx="8" fill="#ffa58f"/>
+</g>
+<g fill="#171c27" text-anchor="middle" font-family="ui-monospace, monospace" font-size="19" font-weight="700"><text x="705" y="267">01</text><text x="813" y="267">02</text><text x="921" y="267">03</text><text x="1029" y="267">04</text></g>
+<path d="M864 21h178v118H864z" fill="#eae4cb"/><path d="M864 139l11-9 11 9 11-9 11 9 11-9 11 9 11-9 11 9 11-9 11 9 11-9 11 9 11-9 11 9 11-9 13 9v-17H864z" fill="#eae4cb"/>
+<g font-family="ui-monospace, monospace" font-size="14" fill="#384051"><text x="883" y="58">output.csv</text><path d="M883 74h137M883 87h98M883 100h121" stroke="#818795" stroke-width="2" stroke-dasharray="3 3"/></g>
+</svg>

@@ -1,39 +1,30 @@
 # EasyLabel
 
-Easy-to-use data labelling tool for machine learning models.
+Label text in a CSV without leaving your terminal. EasyLabel shows one row at a time and gives each label a color-coded button that stays in the same place. I borrowed the idea from the cash register I used at work.
 
-# Table of Contents
+[Try the sample](#try-the-sample) · [Use your own CSV](#use-your-own-csv)
 
-- [EasyLabel](#easylabel)
-- [Table of Contents](#table-of-contents)
-- [Overview](#overview)
-- [Technologies](#technologies)
-- [Getting Started](#getting-started)
+[![Open GitHub issues](https://img.shields.io/github/issues/Pop101/EasyLabel?style=flat-square)](https://github.com/Pop101/EasyLabel/issues)
 
-# Overview
+![EasyLabel poster: a CSV row goes into a colorful cash register and comes out as a labeled receipt](.github/images/readme-hero.svg)
 
-Often times, we need to label data for machine learning models. This repo takes inspiration from my job as a cashier, where the buttons on the register are color-coded and in the same position. Mirroring this, we create an enviornment where labelling data is as easy as pressing a button.
+## Try the sample
 
-![](.github/workflow.png)
+Use Python 3.12 or later, [Poetry](https://python-poetry.org/), and an interactive terminal.
 
-# Technologies
+```sh
+git clone https://github.com/Pop101/EasyLabel.git
+cd EasyLabel
+poetry install --no-root
+poetry run python easy_label.py
+```
 
-This project is created with:
+The bundled `data.csv` contains example customer feedback. Pick one or more labels and select **Confirm** to write that row to `output.csv` and move on. With the sample configuration, chosen labels are written as `True` and the others as `False`. The input CSV stays unchanged.
 
-- [Py Term Tk](https://github.com/ceccopierangiolieugenio/pyTermTk)
-- [Pandas](https://pandas.pydata.org/)
-  
-# Getting Started
+![EasyLabel in the terminal, with a feedback row and color-coded label buttons](.github/workflow.png)
 
-To get started, you will need to install the dependencies. This project uses [Poetry](https://python-poetry.org/) to install and manage a project specific venv.
+## Use your own CSV
 
-Clone the Repo \
-```git clone https://github.com/Pop101/EasyLabel``` \
-Enter the repo and install requirements \
-```cd EasyLabel && poetry lock```
+Open `config.yml`. Under **Data**, set **Path** to your CSV, **Text Column** to the header you want to read, and **Label Columns** to the labels you want as buttons. Under **Output**, set **Path** to a new file.
 
-Modify the config to point to any data you want to label. \
-```nano config.yaml```
-
-Run the script to interactively begin labeling, progress will resume if you decide to take a break. \
-```poetry run python easy_label.py```
+Use a fresh output path. This version does not reliably resume a run from an existing output CSV.
